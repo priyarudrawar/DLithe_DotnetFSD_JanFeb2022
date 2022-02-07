@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+    h1 {
+  text-shadow: 2px 2px rgb(230, 28, 28);
+  text-align: center;
+
+}
+body{ 
+    background-color: #ffffff
+  
+}
+
+div.ex4 {
+  background-color: lightblue;
+  width: 110px;
+  height: 110px;
+  overflow: visible;
+}
+
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:rgb(235, 1, 1);
+	text-decoration: solid;
+	padding:20px;
+    text-align:center;
+}
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:rgb(167, 3, 3);
+	
+	padding:8px;
+    text-align:center;
+}
+</style>
+</head>
+<body>
+    <div id="fixedheader">WELCOME TO DK GROUP OF COMPANY</div>
+
+    <br>
+
+</br>
+
+
+
+<div id="container">
+    <!--Horizontal Navbar starts from here-->
+  <nav>
+    <div id="logo">
+      Dlithe Bootcamp
+    </div>
+    <ul>
+      <li><a href="property.html">Learning</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">Theory</a></li>
+      
+      <!--Dropdown Effect code-->
+      <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Blogs &nbsp;<i class="fa fa-caret-down"></i></a>
+        <div class="dd">
+          <div id="up_arrow"></div>
+          <!--list used here with external links-->
+        <ul>
+          
+          <li><a href="#">January</a> </li>
+           <ul> <li> <a href="#">1st week</a> </li> </ul>
+          <li><a href="#">February</a></li>
+          <li><a href="#">March</a></li>
+        </ul>
+        </div>
+      </li>
+      <li><a href="#">Contact</a></li>
+     
+    </ul>
+  </nav>
+</div> 
+
+
+
+    <h1> Examples of Pseudoelements </h1>
+    <marquee width = "100%" text-align = "center">Examples of Pseudoelements</marquee>
+
+<p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world.</p>
+
+
+<h2>HTML TUTS</h2>
+<div style="opacity:0.1;"><p>HTMl TUTS</p></div>
+<div style="opacity:0.3;"><p>HTML</p></div>
+<div style="opacity:0.6;"><p>ndia, officially the Republic of India (Hindi: Bhārat Gaṇarājya),[24] is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west;[f] China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.</p></div>
+<div><p>opacity 1</p></div>
+
+
+
+<h2>overflow: visible (default):</h2>
+<div class="ex4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+
+
+
+<h1>The float Property</h1>
+
+<p>In this example, the image will float to the right in the text, and the text in the paragraph will wrap around the image.</p>
+
+<p><img src="man.jpg" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+
+
+<div id="fixedfooter"> &copy; DKGROUPCOMPANY.COM </div>
+
+</body>
+</html>
