@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">javascript</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Array</a></li>
+      <li><a href="string method.html">string fuction</a></li>
+      <li><a href="Date function.html">Date fuction</a></li>
+      <li><a href="MathFunction.html">Math Function</a></li>
+      <li><a href="exception handling.html">Exception Handling</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+    <!DOCTYPE html>
+    <html>
+    <body style="background-color: aquamarine;">
+        <hr>
+        <h1>reverse method</h1>
+    <p id="file"></p>
+    
+    <script>
+    const fruits = ["white", "black", "orange", "red"];
+    document.getElementById("file").innerHTML = fruits.reverse();
+    </script>
+    <hr>
+    <h2>Array splice method</h2>
+    
+    <p>The Array.splice() method adds and removes array elements:</p>
+    
+    <p id="demo"></p>
+    
+    <script>
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+    
+    // At position 2, add 2 elements, remove 1: 
+    fruits.splice(2, 1, "Lemon", "Kiwi");
+    
+    document.getElementById("demo").innerHTML = fruits;
+    </script>
+    <hr>
+    <h1>split method</h1>
+    
+    <p id="demo1"></p>
+    
+    <script>
+    let text = "How are you doing today?";
+    const myArray = text.split(" ");
+    
+    document.getElementById("demo1").innerHTML = myArray; 
+    </script>
+    <hr>
+    <h1>sort method</h1>
+    <script>
+        var arr = [2, 5, 8, 1, 4]
+    document.write(arr.sort());
+    document.write(arr);
+    </script>
+    <hr>
+    <h1>filter method</h1>
+    <script>
+    var words = ['Priya', 'Piyush', 'Prasad', 'Lalith'];
+    
+    var result = words.filter(word => word.length == 6);
+    
+    document.write(result);
+    </script>
+    <hr>
+    <h1>concat method</h1>
+    <script>
+        const array1 = ['one ', 'b', 'c'];
+    const array2 = ['d', 'e', 'six'];
+    const array3 = array1.concat(array2);
+    
+    document.write(array3);
+    </script>
+    
+    </body>
+    
+    </html>
+    
+</div>
+
+</body>
+</html>
