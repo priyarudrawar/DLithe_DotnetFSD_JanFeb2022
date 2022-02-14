@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+<body style="background-color: rgba(238, 13, 137, 0.432);">
+ <h1>Abstract class</h1>
+ 
+<script>
+ function Student()
+{
+	this.Name="Name";
+	throw new Error("You cannot create an instance of Abstract Class");
+}
+Student.prototype.print=function()
+{
+	return "Student is: "+this.Name;
+}
+function KG(Name)
+{
+	this.Name=Name;
+}
+KG.prototype=Object.create(Student.prototype);
+var kg=new KG("Priyanka");
+document.writeln(kg.print());
+ 
+ 
+ </script>
+ <hr>
+ <h1>Encapsulation</h1>
+ <script>
+    function Employee(id,name)
+    {
+    var eId=id;
+    var ename=name;
+    Object.defineProperty(this,"name",{
+    get:function()
+    {
+    return ename;
+    },
+    set:function(ename)
+    {
+    this.ename=ename;
+    }
+    });
+    Object.defineProperty(this,"id",{
+    get:function()
+    {
+    return eId;
+    },
+    set:function(eId)
+    {
+    this.eId=eId;
+    }
+    });
+    }
+    var emp=new Employee(77, "Priyanka");
+    document.writeln(emp.id+" "+emp.name);
+    </script>
+
+      
+ <div class="container p-3 my-3 bg-primary text-white">
+    <h1>Encapsulation</h1>
+        <p>The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+
+            declare class variables/attributes as private
+            provide public get and set methods to access and update the value of a private variable
+            </p>
+            <h1>example</h1>
+            <pre>public class Person {
+                private String name; // private = restricted access
+              
+                // Getter
+                public String getName() {
+                  return name;
+                }
+              
+                // Setter
+                public void setName(String newName) {
+                  this.name = newName;
+                }
+              }</pre>
+      </div>
+      
+      <div class="container p-3 my-3 bg-primary text-white">
+        <h1>Abstract class</h1>
+        <p>
+        An abstract class is a class that is declared abstract —it may or may not include abstract methods.
+        Abstract classes cannot be instantiated, but they can be subclassed However, 
+        if it does not, then the subclass must also be declared abstract .</p>
+        <h1>example</h1>
+        <pre>abstract class Animal {
+            public abstract void animalSound();
+            public void sleep() {
+              System.out.println("Zzz");
+            }
+          }</pre>
+      </div>
+ 
+</body>
+</html>
