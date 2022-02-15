@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JQUERY TUTS</title>
+    <meta name="author" content="Adtile">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+    <script src="js/responsive-nav.js"></script>
+
+    <!--internal jquery-->
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+  </head>
+
+  <style>
+    .test {
+      color: red;
+      font-size: 20px;
+    }
+    </style>
+
+  <!--body starts here-->
+  <body style="background-color: blanchedalmond;">
+
+    <header>
+      <a href="#home" class="logo" data-scroll>JQUERY</a>
+      <nav class="nav-collapse">
+        <ul>
+          <li class="menu-item active"><a href="#accordian" data-scroll>Accordian</a></li>
+          <li class="menu-item"><a href="#methods" data-scroll>Add Methods</a></li>
+          <li class="menu-item"><a href="#methodsremove" data-scroll>Remove Methods</a></li>
+          <li class="menu-item"><a href="#setmethod" data-scroll>Set Methods</a></li>
+          <li class="menu-item"><a href="#animation" data-scroll>Animation</a></li>
+          <li class="menu-item"><a href="#Autocomplete" data-scroll>Autocomplete</a></li>
+          <li class="menu-item"><a href="http://www.google.com" target="_blank">Google</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <h1 text allign = center> Accordian Exmaple </h1>
+
+    <section id="accordian">
+
+      <script>  
+        $(function() {  
+           $( "#accordion-5" ).accordion({  
+              disabled: false  
+           });  
+           $("input").each(function () {  
+              $(this).change(function () {  
+                 if ($(this).attr("id") == "disableaccordion") {  
+                    $("#accordion-5").accordion("option", "disabled", true);  
+                 } else {  
+                    $("#accordion-5").accordion("option", "disabled", false);  
+                 }  
+              });  
+           });  
+        });  
+     </script>  
+
+
+<!--body part of accordian-->
+
+<div id="accordion-5">  
+  <h3>What is jQuery?</h3>  
+     <div>  
+        <pre>  
+         Query is a small, fast and lightweight JavaScript library.
+         jQuery is platform-independent.
+         jQuery means "write less do more".
+         jQuery simplifies AJAX call and DOM manipulation.
+        </pre>  
+     </div>  
+     <h3>What is jQuery Features?</h3>  
+     <div>  
+        <pre>  
+         HTML manipulation
+         DOM manipulation
+         DOM element selection
+         CSS manipulation
+         Effects and Animations    
+        </pre>  
+     </div>  
+     <h3>What Does jQuery Do?</h3>  
+     <div>  
+        <p>  
+         jQuery is a framework built with JavaScript. It helps web developers to add extra functionalities to their websites. 
+         It is the most popular JavaScript library used to traverse and manipulate the HTML DOM tree.Also,
+         it simplifies event handling, CSS animation, and Ajax.
+        </p>  
+          
+     </div>  
+   <h3>What jQuery means?</h3>  
+       <div>  
+<ul>  
+<li>jQuery is a fast</li>  
+<li>, small, and feature-rich JavaScript library.</li>  
+<li>It makes things like HTML documen</li>  
+<li>traversal and manipulation,</li>  
+ <li>event handling, animation, </li>  
+</ul>  
+</div>  
+
+  </div>  
+  <div style="margin-top:30px">  
+     <input type="radio" name="disable" id="disableaccordion"    
+        value="disable">Disable accordion  
+     <input type="radio" name="disable" id="enableaccordion" checked   
+        value="enable">Enable accordion  
+  </div>  
+
+
+</section>
+
+
+<!--ends here-->
+
+<br>
+
+
+
+</br>
+    <section id="methods">
+      <!--methods starts here-->
+
+
+      <script>
+        $(document).ready(function(){
+          $("#btn1").click(function(){
+            $("p").append(" <b>ADD Brand</b>.");
+          });
+        
+          $("#btn2").click(function(){
+            $("ol").append("<li>NOkIA</li>");
+          });
+        });
+        </script>
+
+        <!--body part start here-->
+        <hr>
+
+        <h1>Add Method</h1>
+        <p>Some Mobile Company name.</p>
+        
+        <ol>
+          <li>ONE PLUSE</li>
+          <li>IPHONE</li>
+          <li>SAMSUNG</li>
+        </ol>
+        
+        <button id="btn1">Mobile Brand</button>
+        <button id="btn2">addeed Name</button>
+
+
+        <!--ends here-->
+
+
+    </section>
+
+    <section id="methodsremove">
+      <h1>Remove methods</h1>
+
+      <!--remove method start-->
+      <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("p").remove(".test");
+          });
+        });
+        </script>
+
+<hr>
+<h1>Remove Element</h1>
+<p>removes all elements.</p>
+<p class="test">This example removes all elements..</p>
+<p class="test">This example removes all elements.</p>
+
+<button>Remove</button>
+<hr>
+      <!--ends here-->
+    </section>
+
+    <section id="animation">
+      <h1>Animation </h1>
+      <!--animation start here-->
+      <script> 
+        $(document).ready(function(){
+          $("button").click(function(){
+            var div = $("div");
+            div.animate({height: '300px', opacity: '0.4'}, "slow");
+            div.animate({width: '300px', opacity: '0.8'}, "slow");
+            div.animate({height: '100px', opacity: '0.4'}, "slow");
+            div.animate({width: '100px', opacity: '0.8'}, "slow");
+          });
+        });
+        </script> 
+        
+        <button>Start Animation</button>
+
+         <pre>By default, all HTML elements have a static position, and cannot be moved. 
+        To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!
+        </pre>
+
+         <div style="background:#5f3ab6;height:100px;width:100px;position:absolute;">Hello All</div>
+         
+      <!---end here-->
+    </section>
+
+    <section id="setmethod">
+      <h1>Set method</h1>
+      <!--set method start here-->
+      <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("#w3s").attr("href", "https://www.tietoevry.com/");
+          });
+        });
+        </script>
+        
+
+        <p><a href="https://www.tietoevry.com/" id="tietoevry">https://www.tietoevry.com/</a></p>
+        
+        <button>Change href Value</button>
+        
+        <p>Mouse over the link (or click on it) to see that the value of the href attribute has changed.</p>
+        
+
+      <!--end here-->
+    </section>
+
+
+    <section id="Autocomplete">
+      <h1>Autocomplete</h1>
+      <!--autocomle start here-->
+      <script>  
+        $(function() {  
+           $( "#autocomplete-4" ).autocomplete({  
+              source: [  
+                 { label: "India", value: "IND" },  
+                   { label: "America", value: "USA" },  
+                     { label: "Pakistan", value: "PAK" },  
+                       { label: "Iceland", value: "ICE" },  
+                 { label: "Australia", value: "AUS" }  
+              ]  
+           });  
+        });  
+     </script> 
+      <hr>
+     <!-- HTML -->   
+     <div class="ui-widget">  
+        <p>Type I OR A</p>  
+        <input id="autocomplete-4">  
+     </div>  
+     <hr>
+     <!--end here-->
+    </section>
+    
+
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
+  </body>
+</html>

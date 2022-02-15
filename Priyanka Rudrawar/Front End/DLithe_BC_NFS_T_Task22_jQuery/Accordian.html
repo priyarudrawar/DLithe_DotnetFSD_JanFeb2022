@@ -1,0 +1,80 @@
+<!doctype html>  
+<html lang="en">  
+   <head>  
+      <meta charset="utf-8">  
+      <title>jQuery UI Accordion Example </title>  
+      <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+      <script>  
+         $(function() {  
+            $( "#accordion-5" ).accordion({  
+               disabled: false  
+            });  
+            $("input").each(function () {  
+               $(this).change(function () {  
+                  if ($(this).attr("id") == "disableaccordion") {  
+                     $("#accordion-5").accordion("option", "disabled", true);  
+                  } else {  
+                     $("#accordion-5").accordion("option", "disabled", false);  
+                  }  
+               });  
+            });  
+         });  
+      </script>  
+      <style>  
+         #accordion-5{font-size: 14px;}  
+      </style>  
+   </head>  
+   <body>  
+      <div id="accordion-5">  
+         <h3>What is jQuery?</h3>  
+            <div>  
+               <pre>  
+                Query is a small, fast and lightweight JavaScript library.
+                jQuery is platform-independent.
+                jQuery means "write less do more".
+                jQuery simplifies AJAX call and DOM manipulation.
+               </pre>  
+            </div>  
+            <h3>What is jQuery Features?</h3>  
+            <div>  
+               <pre>  
+                HTML manipulation
+                DOM manipulation
+                DOM element selection
+                CSS manipulation
+                Effects and Animations    
+               </pre>  
+            </div>  
+            <h3>What Does jQuery Do?</h3>  
+            <div>  
+               <p>  
+                jQuery is a framework built with JavaScript. It helps web developers to add extra functionalities to their websites. 
+                It is the most popular JavaScript library used to traverse and manipulate the HTML DOM tree.Also,
+                it simplifies event handling, CSS animation, and Ajax.
+               </p>  
+                 
+            </div>  
+          <h3>What jQuery means?</h3>  
+              <div>  
+    <ul>  
+      <li>jQuery is a fast</li>  
+      <li>, small, and feature-rich JavaScript library.</li>  
+      <li>It makes things like HTML documen</li>  
+       <li>traversal and manipulation,</li>  
+        <li>event handling, animation, </li>  
+    </ul>  
+  </div>  
+  
+         </div>  
+         <div style="margin-top:30px">  
+            <input type="radio" name="disable" id="disableaccordion"    
+               value="disable">Disable accordion  
+            <input type="radio" name="disable" id="enableaccordion" checked   
+               value="enable">Enable accordion  
+         </div>  
+     </body>  
+</html>  
+
+ 

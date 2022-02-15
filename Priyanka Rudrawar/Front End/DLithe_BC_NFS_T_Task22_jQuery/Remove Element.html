@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").remove(".test");
+  });
+});
+</script>
+<style>
+.test {
+  color: red;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+    <hr>
+<h1>Remove Element</h1>
+<p>removes all elements.</p>
+<p class="test">This example removes all elements..</p>
+<p class="test">This example removes all elements.</p>
+
+<button>Remove</button>
+<hr>
+
+</body>
+</html>

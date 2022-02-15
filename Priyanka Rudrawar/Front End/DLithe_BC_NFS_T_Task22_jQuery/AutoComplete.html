@@ -1,0 +1,36 @@
+<!doctype html>  
+<html lang="en">  
+   <head>  
+      <meta charset="utf-8">  
+      <title>jQuery UI Autocomplete functionality</title>  
+      <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+      <!-- Javascript -->  
+      <script>  
+         $(function() {  
+            $( "#autocomplete-4" ).autocomplete({  
+               source: [  
+                  { label: "India", value: "IND" },  
+                    { label: "America", value: "USA" },  
+                      { label: "Pakistan", value: "PAK" },  
+                        { label: "Iceland", value: "ICE" },  
+                  { label: "Australia", value: "AUS" }  
+               ]  
+            });  
+         });  
+      </script>  
+   </head>  
+   <body>  
+       <hr>
+       <h1>Autocomplete</h1>
+      <!-- HTML -->   
+      <div class="ui-widget">  
+         <p>Type I OR A</p>  
+         <input id="autocomplete-4">  
+      </div>  
+      <hr>
+   </body>  
+</html>  
+
+ 
