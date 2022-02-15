@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+    </head>
+    <style>
+      body{ 
+        align-content: center;
+        background-color: rgb(136, 167, 255);
+      }
+      
+      .menucls {
+  background-color: #1b107e;
+  border-color: #425766;
+}
+.menucls .navbar-brand {
+  color: #fdfdfd;
+}
+.menucls .navbar-brand:hover, .menucls .navbar-brand:focus {
+  color: #aba8a9;
+}
+.menucls .navbar-text {
+  color: #f0f0f0;
+}
+.menucls .navbar-nav > li > a {
+  color: #ffffff;
+}
+.menucls .navbar-nav > li > a:hover, .menucls .navbar-nav > li > a:focus {
+  color: #aba8a9;
+}
+.menucls .navbar-nav > li > .dropdown-menu {
+  background-color: #310058;
+}
+.menucls .navbar-nav > li > .dropdown-menu > li > a {
+  color: #e4e4e4;
+}
+.menucls .navbar-nav > li > .dropdown-menu > li > a:hover,
+.menucls .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #aba8a9;
+  background-color: #425766;
+}
+.menucls .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #061e49;
+}
+.menucls .navbar-nav > .active > a, .menucls .navbar-nav > .active > a:hover, .menucls .navbar-nav > .active > a:focus {
+  color: #aba8a9;
+  background-color: #425766;
+}
+.menucls .navbar-nav > .open > a, .menucls .navbar-nav > .open > a:hover, .menucls .navbar-nav > .open > a:focus {
+  color: #aba8a9;
+  background-color: #425766;
+}
+.menucls .navbar-toggle {
+  border-color: #425766;
+}
+.menucls .navbar-toggle:hover, .menucls .navbar-toggle:focus {
+  background-color: #425766;
+}
+.menucls .navbar-toggle .icon-bar {
+  background-color: #101213;
+}
+.menucls .navbar-collapse,
+.menucls .navbar-form {
+  border-color: #fafafa;
+}
+.menucls .navbar-link {
+  color: #ffffff;
+}
+.menucls .navbar-link:hover {
+  color: #aba8a9;
+}
+
+@media (max-width: 767px) {
+  .menucls .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .menucls .navbar-nav .open .dropdown-menu > li > a:hover, .menucls .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #aba8a9;
+  }
+  .menucls .navbar-nav .open .dropdown-menu > .active > a, .menucls .navbar-nav .open .dropdown-menu > .active > a:hover, .menucls .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #aba8a9;
+    background-color: #425766;
+  }
+}
+
+body{ 
+  text-align: center;
+}
+
+
+</style>
+<body>
+  <div class="container"><br>
+    <hr>
+    <nav class="navbar menucls">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Web</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="">PHP</a></li>
+            <li><a href="">jQuery</a></li>
+            <li class="dropdown">
+              
+              <ul class="dropdown-menu">
+                <li><a href="">Carousel</a></li>
+                <li><a href="">Forms</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="">Select</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Find topics">
+            </div>
+            <button type="submit" class="btn btn-success">Go</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="">Terms</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    </div>
+
+<h2>JavaScript Class Inheritance</h2>
+
+<p></p>
+<p>Use the "super" method to call the parent's constructor function.</p>
+
+<p id="demo"></p>
+
+<script>
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  present() {
+    return 'I have a ' + this.carname;
+  }
+}
+
+class Model extends Car {
+  constructor(brand, mod) {
+    super(brand);
+    this.model = mod;
+  }
+  show() {
+    return this.present() + ', it is a ' + this.model;
+  }
+}
+
+let myCar = new Model("Ford", "Mustang");
+document.getElementById("demo").innerHTML = myCar.show();
+</script>
+
+<script>
+    // object person
+    let person = {
+        talk: true,
+        Canfly() {
+            return "Sorry, Can't fly";
+        },
+    };
+    // Object GFGuser
+    let GFGuser = {
+        CanCode: true,
+        CanCook() {
+            return "Can't say";
+        },
+        
+      //  Inheriting the properties and methods of person
+        __proto__: person, 
+    };
+
+    // Printing on console
+    // Property of person
+    document.write("Can a GFG User talk: " + GFGuser.talk); 
+    
+    // Method of person
+    document.write("Can a GFG User fly: " + GFGuser.Canfly()); 
+    
+    // Property of GFGuser
+    document.write("Can a GFG User code: " + GFGuser.CanCode); 
+    
+    // Method of GFGuser
+    documnet.write("Can a GFG User cook: " + GFGuser.CanCook()); 
+</script>
+
+<br>
+</br>
+
+<h1> Polymorphism Example </h1>
+
+<!--polymorphism-->
+
+<script>
+    class A
+      {
+         display()
+        {
+          document.writeln("using a class");
+        }
+      }
+    class B extends A
+      {
+      }
+    var b=new B();
+    b.display();
+
+    
+    </script>
+
+    <!--end-->
+
+    <!--polymorphism using prototype-->
+<br>
+
+
+</br>
+<h1> Polymorphism using prototype</h1>
+<script>
+    function A()
+    {
+        return hii
+    }
+    A.prototype.display=function()
+    {
+      return "A is invoked";
+    }
+    function B()
+    {
+        return hello
+      
+    }
+    
+    B.prototype=Object.create(A.prototype);
+    
+    var a=[new A(), new B()]
+    
+    a.forEach(function(msg)
+    {
+      document.writeln(msg.display()+"<br>");
+    });
+    </script>
+
+            <!--end-->
+
+            <!--inhertience -->
+<script>
+            class Car {
+                constructor(color, speed) {
+                  this._speed = speed;
+                  this._color = color;
+                }
+              }
+              class BMW extends Car {
+  constructor(color, speed, make) {
+    super(color, speed);
+    this._make = make;
+  }
+
+  showInfo() {
+    document.write(
+      "I’m " +
+        this._make +
+        ", my color is " +
+        this._color +
+        ", and my speed is " +
+        this._speed
+    );
+  }
+}
+
+class Toyota extends Car {
+  constructor(color, speed, make) {
+    super(color, speed);
+    this._make = make;
+  }
+
+  showInfo() {
+    document.write(
+      "I’m " +
+        this._make +
+        ", my color is " +
+        this._color +
+        ", and my speed is " +
+        this._speed
+    );
+  }
+}
+
+class Bentely extends Car {
+  constructor(color, speed, make) {
+    super(color, speed);
+    this._make = make;
+  }
+
+  showInfo() {
+    document.write(
+      "I’m " +
+        this._make +
+        ", my color is " +
+        this._color +
+        ", and my speed is " +
+        this._speed
+    );
+  }
+}
+var myBentely = new Bentely('Red', '20mph', 'Bentely');
+var myBMW = new BMW('Green', '40mph', 'BMW');
+var myToyota = new Toyota('White', '60mph', 'Toyota');
+documnet.write(myBentely.showInfo()); 
+documnet.write(myBMW.showInfo());  
+document.write(myToyota.showInfo());
+
+
+//using prototype 
+
+
+ </script>
+ <script>
+let Car = {
+  color: "Red",
+};
+let BMW = {
+  make: "BMW",
+};
+
+BMW.__proto__ = Car;
+
+// we can find both properties in BMW now:
+console.log("This is a " + BMW.color + " " + BMW.make);
+
+
+</script>
+
+
+
+</body>
+<hr>
+</html>
