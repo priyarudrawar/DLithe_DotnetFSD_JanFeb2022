@@ -1,0 +1,15 @@
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\bin\Debug\net6.0\test.exe
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\bin\Debug\net6.0\test.deps.json
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\bin\Debug\net6.0\test.runtimeconfig.json
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\bin\Debug\net6.0\test.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\bin\Debug\net6.0\ref\test.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\bin\Debug\net6.0\test.pdb
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\obj\Debug\net6.0\test.csproj.AssemblyReference.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\obj\Debug\net6.0\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\obj\Debug\net6.0\test.AssemblyInfoInputs.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\obj\Debug\net6.0\test.AssemblyInfo.cs
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\obj\Debug\net6.0\test.csproj.CoreCompileInputs.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\obj\Debug\net6.0\test.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\obj\Debug\net6.0\ref\test.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\obj\Debug\net6.0\test.pdb
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\test\obj\Debug\net6.0\test.genruntimeconfig.cache
