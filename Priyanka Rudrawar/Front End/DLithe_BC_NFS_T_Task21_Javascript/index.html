@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login Form validation</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+<div class="wrapper">
+	<div class="form">
+		<div class="title">
+			Login To Piya Photography
+		</div>
+		<form method="post" action="successpage.html" onsubmit="return validation();">
+			<div class="input_wrap">
+				<label for="input_text">Enter your Email </label>
+				<div class="input_field">
+					<input type="text" class="input" id="input_text">
+				</div>
+
+				<div class="input_wrap">
+					<label for="input_text">Enter Yout Name </label>
+					<div class="input_field">
+						<input type="text" class="input" id="input_name">
+					</div>
+
+					<div class="input_wrap">
+						<label for="input_text">Enter Your age  </label>
+						<div class="input_field">
+							<input type="text" class="input" id="input_age">
+						</div>
+
+			</div>
+			<div class="input_wrap">
+				<label for="input_password">Enter your Password</label>
+				<div class="input_field">
+					<input type="password" class="input" id="input_password">
+				</div>
+			</div>
+			<div class="input_wrap">
+				<span class="error_msg">oops! you entered Incorrect username or password. Please try again</span>
+				<input type="submit" id="login_btn" class="btn disabled" value="Login" disabled="true">
+			</div>
+		</form>
+	</div>
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
