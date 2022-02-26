@@ -1,0 +1,30 @@
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\bin\Debug\net6.0\PartialClass.exe
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\bin\Debug\net6.0\PartialClass.deps.json
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\bin\Debug\net6.0\PartialClass.runtimeconfig.json
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\bin\Debug\net6.0\PartialClass.dll
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\bin\Debug\net6.0\ref\PartialClass.dll
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\bin\Debug\net6.0\PartialClass.pdb
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\obj\Debug\net6.0\PartialClass.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\obj\Debug\net6.0\PartialClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\obj\Debug\net6.0\PartialClass.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\obj\Debug\net6.0\PartialClass.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\obj\Debug\net6.0\PartialClass.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\obj\Debug\net6.0\PartialClass.dll
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\obj\Debug\net6.0\ref\PartialClass.dll
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\obj\Debug\net6.0\PartialClass.pdb
+C:\Users\hp\OneDrive\Desktop\learning_c#\PartialClass\obj\Debug\net6.0\PartialClass.genruntimeconfig.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\bin\Debug\net6.0\PartialClass.exe
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\bin\Debug\net6.0\PartialClass.deps.json
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\bin\Debug\net6.0\PartialClass.runtimeconfig.json
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\bin\Debug\net6.0\PartialClass.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\bin\Debug\net6.0\ref\PartialClass.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\bin\Debug\net6.0\PartialClass.pdb
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\obj\Debug\net6.0\PartialClass.csproj.AssemblyReference.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\obj\Debug\net6.0\PartialClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\obj\Debug\net6.0\PartialClass.AssemblyInfoInputs.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\obj\Debug\net6.0\PartialClass.AssemblyInfo.cs
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\obj\Debug\net6.0\PartialClass.csproj.CoreCompileInputs.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\obj\Debug\net6.0\PartialClass.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\obj\Debug\net6.0\ref\PartialClass.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\obj\Debug\net6.0\PartialClass.pdb
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\PartialClass\obj\Debug\net6.0\PartialClass.genruntimeconfig.cache

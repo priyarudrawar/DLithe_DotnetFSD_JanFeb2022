@@ -1,0 +1,30 @@
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\bin\Debug\net6.0\task-27.exe
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\bin\Debug\net6.0\task-27.deps.json
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\bin\Debug\net6.0\task-27.runtimeconfig.json
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\bin\Debug\net6.0\task-27.dll
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\bin\Debug\net6.0\ref\task-27.dll
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\bin\Debug\net6.0\task-27.pdb
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\obj\Debug\net6.0\task-27.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\obj\Debug\net6.0\task-27.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\obj\Debug\net6.0\task-27.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\obj\Debug\net6.0\task-27.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\obj\Debug\net6.0\task-27.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\obj\Debug\net6.0\task-27.dll
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\obj\Debug\net6.0\ref\task-27.dll
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\obj\Debug\net6.0\task-27.pdb
+C:\Users\hp\OneDrive\Desktop\learning_c#\task-27\obj\Debug\net6.0\task-27.genruntimeconfig.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\bin\Debug\net6.0\task-27.exe
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\bin\Debug\net6.0\task-27.deps.json
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\bin\Debug\net6.0\task-27.runtimeconfig.json
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\bin\Debug\net6.0\task-27.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\bin\Debug\net6.0\ref\task-27.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\bin\Debug\net6.0\task-27.pdb
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\obj\Debug\net6.0\task-27.csproj.AssemblyReference.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\obj\Debug\net6.0\task-27.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\obj\Debug\net6.0\task-27.AssemblyInfoInputs.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\obj\Debug\net6.0\task-27.AssemblyInfo.cs
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\obj\Debug\net6.0\task-27.csproj.CoreCompileInputs.cache
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\obj\Debug\net6.0\task-27.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\obj\Debug\net6.0\ref\task-27.dll
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\obj\Debug\net6.0\task-27.pdb
+D:\Dlithe\DLithe_DotnetFSD_JanFeb2022\Priyanka Rudrawar\Front End\C#\DLithe_BC_NFS_T_Task27_C#\task-27\obj\Debug\net6.0\task-27.genruntimeconfig.cache
